@@ -145,7 +145,7 @@ Comment.remoteMethod(
             verb: 'post'
         },
         accepts: {
-            arg: 'number of comments', type: 'number', required: true
+            arg: 'numberOfComments', type: 'number', required: true
         },
         returns: {
             type: 'string',
