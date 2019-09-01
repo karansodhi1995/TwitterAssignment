@@ -2,6 +2,13 @@
   "name": "Blogs",
   "base": "PersistedModel",
   "idInjection": true,
+  "indexes": {
+    "uniqueIndex": {
+      "key": {
+        "blogId": 1
+      }
+    }
+  },
   "options": {
     "validateUpsert": true
   },
@@ -22,7 +29,8 @@
     },
     "users": {
       "type": "array",
-      "required": false
+      "required": false,
+      "index": true
     }
   },
   "validations": [],

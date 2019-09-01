@@ -24,5 +24,9 @@
   "Comment": {
     "dataSource": "mongo",
     "public": true
+  },
+  "Friends": {
+    "dataSource": "mongo",
+    "public": false
   }
 }

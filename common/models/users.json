@@ -2,6 +2,13 @@
   "name": "Users",
   "base": "PersistedModel",
   "idInjection": true,
+  "indexes": {
+    "uniqueIndex": {
+      "key": {
+        "userId": 1
+      }
+    }
+  },
   "options": {
     "validateUpsert": true
   },

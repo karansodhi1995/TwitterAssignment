@@ -4,6 +4,7 @@
   },
   "initial": {
     "compression": {},
+    "./cache-control.js": {},
     "cors": {
       "params": {
         "origin": true,
