@@ -8,11 +8,13 @@
   "properties": {
     "userId": {
       "type": "number",
-      "required": true
+      "required": true,
+      "index": true
     },
     "blogId": {
       "type": "number",
-      "required": true
+      "required": true, 
+      "index": true
     }
   },
   "validations": [],

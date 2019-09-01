@@ -8,7 +8,8 @@
   "properties": {
     "user1": {
       "type": "number",
-      "required": true
+      "required": true,
+      "index": true
     },
     "user2": {
       "type": "number",
